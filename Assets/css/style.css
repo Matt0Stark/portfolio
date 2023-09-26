@@ -1,17 +1,25 @@
 
-
-
-
+/* bullet points removed, inline block, flexed to the right */
+.header {
+    display:flex;
+    justify-content: space-between;
+    flex-flow:row wrap;
+   
+}
 .header nav ul {
    list-style-type: none;
 }
-
 .header nav ul li {
-    display: inline-block;
+     display: inline-block; } 
+
+
+header {
+    background-color: blueviolet;
 }
 
-
-
+body {
+    background-color:chartreuse
+}
 
 
 
